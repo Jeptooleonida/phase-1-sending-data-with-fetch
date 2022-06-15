@@ -16,6 +16,6 @@ function submitData(name, email){
     })
     .catch(errmsg =>{
         document.body.innerHTML = errmsg.message
-        alert("name or email is incorect");
+        alert("incorect name or email");
     })
 }
